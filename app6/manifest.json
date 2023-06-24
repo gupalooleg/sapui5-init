@@ -1,0 +1,28 @@
+{
+  "_version": "1.0.0",
+  "sap.app": {
+    "id": "sapui5-init.app6",
+    "type": "application",
+    "title": "SAPUI5",
+    "applicationVersion": {
+      "version": "1.0.0"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.114.0",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {}
+      }
+    }
+  }
+}

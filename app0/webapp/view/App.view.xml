@@ -1,0 +1,9 @@
+<mvc:View
+    controllerName="sapui5-init.app0.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Button
+        id="okBtn"
+        text="{i18n>Button.text.okBtn}"
+        press="onPressOkBtn"/>
+</mvc:View>
