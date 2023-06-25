@@ -7,8 +7,10 @@ sap.ui.define(["sap/ui/core/UIComponent"], function (UIComponent) {
       manifest: "json",
     },
 
-    init: function () {
+    init: async function () {
       UIComponent.prototype.init.apply(this, arguments);
+
+      this.getRouter().initialize();
     },
   });
 });

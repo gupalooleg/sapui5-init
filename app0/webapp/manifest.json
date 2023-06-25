@@ -22,7 +22,34 @@
     "rootView": {
       "viewName": "sapui5-init.app0.view.App",
       "type": "XML",
-      "id": "App"
+      "id": "App",
+      "async": true
+    },
+    "routing": {
+      "config": {
+        "async": true,
+        "clearControlAggregation": false,
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "routerClass": "sap.m.routing.Router",
+        "viewPath": "sapui5-init.app0.view",
+        "viewType": "XML"
+      },
+      "routes": [
+        {
+          "name": "Main",
+          "pattern": "",
+          "target": ["Main"]
+        }
+      ],
+      "targets": {
+        "Main": {
+          "viewId": "Main",
+          "viewLevel": 1,
+          "viewName": "Main",
+          "viewType": "XML"
+        }
+      }
     },
     "dependencies": {
       "minUI5Version": "1.114.0",
