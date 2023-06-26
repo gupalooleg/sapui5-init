@@ -19,6 +19,9 @@
     }
   },
   "sap.ui5": {
+    "config": {
+      "fullWidth": true
+    },
     "rootView": {
       "viewName": "sapui5-init.app0.view.App",
       "type": "XML",
